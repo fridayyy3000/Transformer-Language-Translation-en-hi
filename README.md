@@ -21,11 +21,6 @@ This project implements a Transformer-based Neural Machine Translation (NMT) mod
   - **Decoder**: Masked self-attention + Encoder attention
   - **Positional Encoding** to inject sequence information
 - Implemented with modular, readable `model.py` for clarity and reusability
-
-<p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*HlT2-5VHOzEEi3IuLk_yVw.png" width="500"/>
-</p>
-
 ---
 
 ## 🛠️ How to Use
