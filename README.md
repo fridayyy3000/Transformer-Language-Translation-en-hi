@@ -34,13 +34,6 @@ tensorboard>=2.15.0
 
 pip install -r requirements.txt
 
-Optional (if you're using GPU on Mac)
-If you're using Apple M1/M2 GPU acceleration (MPS):
-
-# Optional - Apple Silicon optimized build (PyTorch)
-# Uncomment if using Apple M1/M2
-# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/mps
-
 Input Sentence (English) ─► Tokenizer ─► Positional Encoding ─► Encoder ─┐
 ▼
 Decoder ◄──── Masked Attention
